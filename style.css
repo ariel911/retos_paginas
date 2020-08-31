@@ -1,0 +1,87 @@
+:root{
+ --color-nav:transparent;
+ --color-hover:rgb(113, 113, 190);
+ --color-article:grey;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{  
+    background-image: url('primera_pagina2.png');
+    background-size: 100%;
+}
+.main-elemento{
+    display: flex;
+    flex-grow: 1;
+}
+.elemento{
+    padding-left: 20px;
+}
+.item{
+    padding: 10px 15px;
+    -webkit-transition: all 500ms ease; /*transicion y animacion*/
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.elemento :hover{
+    background-color:var(--color-hover);
+    border-radius: 30px;
+}
+
+.articulo{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 35px;
+
+}
+.articulo h1{
+    text-align: center;
+    font-family:"Segoe UI";
+    font-size: 40px;
+    color: rgb(44, 15, 63);
+}
+p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 9, 37);
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(103, 179, 182);;
+    border-radius: 6px;
+  }
+  .boton{
+      margin-top: 30px;
+  }
+ .container{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ ion-icon {
+    font-size : 43px ;
+    color: rgb(110, 179, 182);
+ }
+ .icono{
+     margin-top: 18px;
+ }
+ .container1{
+     display: flex;
+     justify-content: space-between;
+      margin-top: 35px;
+ }
+
+@media screen and (max-width:800px){ /*cuando la pantalla este en 768 haz estos cambios*/
+   
+
+  }
+
